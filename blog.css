@@ -1,0 +1,122 @@
+html {
+    background-color: white;
+}
+
+header {
+    padding: 20px;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Make links show a line-through */
+a:hover {
+    text-decoration: line-through;
+    text-decoration-color: orangered;
+}
+
+li {
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    list-style: none;
+    float: right;
+    margin-left: 50px;
+    margin-right: inherit;
+}
+
+/* Create an icon that will link back to the homepage */
+.master {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: black;
+    border: solid;
+    border-color: black;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin-left: 50px;
+}
+
+.name {
+    font-style: normal;
+    color: black;
+    border: solid;
+    border-color: orangered;
+    padding: 0px 10px 0px 10px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text {
+    margin-top: 100px;
+}
+
+/* Resize the image and put it on the right side of the page */
+img {
+    height:auto;
+    width:auto;
+    max-width:600px;
+    max-height:700px;
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+}
+
+/* Style the h1 tag and center it on the page */
+h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 200;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    padding: 100px 0px 200px 0px;
+    border-bottom: solid;
+    border-bottom-color: #31D48E;
+    margin: 150px 250px 200px 250px;
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 75px;
+    margin-left: 80px;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 75px;
+}
+
+span {
+    color: orangered;
+}
+
+#last {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    margin-top: 75px;
+}
+
+.contact {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: orangered;
+    border: none;
+    padding: 0px 5px 0px 5px;
+}
+
+footer {
+    text-align: center;
+    margin: 400px 400px 20px 400px;
+}
